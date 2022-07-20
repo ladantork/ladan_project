@@ -1,10 +1,10 @@
 class Reminder
   def initialize(name)
-      @name = name
+    @name = name
   end
   
   def remind_me_to(task)
-      @task = task
+    @task = task
   end
   
   def remind()
